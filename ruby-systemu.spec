@@ -2,7 +2,7 @@
 Summary:	Universal capture of stdout and stderr and handling of child process pid
 Name:		ruby-%{pkgname}
 Version:	2.5.2
-Release:	2
+Release:	3
 License:	BSD or Ruby
 Group:		Development/Libraries
 URL:		https://github.com/ahoward/systemu
