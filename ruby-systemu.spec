@@ -1,13 +1,13 @@
 %define pkgname systemu
 Summary:	Universal capture of stdout and stderr and handling of child process pid
 Name:		ruby-%{pkgname}
-Version:	2.5.2
-Release:	3
-License:	BSD or Ruby
+Version:	2.6.4
+Release:	1
+License:	Ruby
 Group:		Development/Libraries
-URL:		https://github.com/ahoward/systemu
 Source0:	http://production.cf.rubygems.org/gems/%{pkgname}-%{version}.gem
-# Source0-md5:	7ac461f71ebf29b68f286fe34730c2f2
+# Source0-md5:	1d00c079a064d6c2bc5cbd6c7ec8ca48
+URL:		https://github.com/ahoward/systemu
 BuildRequires:	rpm-rubyprov
 BuildRequires:	rpmbuild(macros) >= 1.656
 BuildArch:	noarch
@@ -15,7 +15,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Universal capture of stdout and stderr and handling of child process
-pid.
+pid for Windows, *nix, etc.
 
 %prep
 %setup -q
