@@ -2,7 +2,7 @@
 Summary:	Universal capture of stdout and stderr and handling of child process pid
 Name:		ruby-%{pkgname}
 Version:	2.6.4
-Release:	2
+Release:	3
 License:	Ruby
 Group:		Development/Libraries
 Source0:	http://production.cf.rubygems.org/gems/%{pkgname}-%{version}.gem
